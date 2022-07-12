@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3A1A71287B0BE700082E35 /* getKiziQiitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1A70287B0BE700082E35 /* getKiziQiitaApp.swift */; };
+		EA3A1A73287B0BE700082E35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1A72287B0BE700082E35 /* ContentView.swift */; };
+		EA3A1A75287B0BE900082E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1A74287B0BE900082E35 /* Assets.xcassets */; };
+		EA3A1A78287B0BE900082E35 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1A77287B0BE900082E35 /* Preview Assets.xcassets */; };
+		EA3A1A83287B0C3A00082E35 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1A82287B0C3A00082E35 /* TitleView.swift */; };
+		EA3A1A85287B0C5B00082E35 /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1A84287B0C5B00082E35 /* NewsManager.swift */; };
+		EA3A1AAB287C772100082E35 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1AAA287C772100082E35 /* SafariView.swift */; };
+		EA3A1AAD287C773100082E35 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1AAC287C773100082E35 /* ListCellView.swift */; };
+		EA3A1AAF287C774E00082E35 /* StoryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1AAE287C774E00082E35 /* StoryListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA3A1A6D287B0BE700082E35 /* QiitaAPI45.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiitaAPI45.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3A1A70287B0BE700082E35 /* getKiziQiitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = getKiziQiitaApp.swift; sourceTree = "<group>"; };
+		EA3A1A72287B0BE700082E35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EA3A1A74287B0BE900082E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3A1A77287B0BE900082E35 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA3A1A82287B0C3A00082E35 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		EA3A1A84287B0C5B00082E35 /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		EA3A1AAA287C772100082E35 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		EA3A1AAC287C773100082E35 /* ListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		EA3A1AAE287C774E00082E35 /* StoryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3A1A6A287B0BE700082E35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3A1A64287B0BE700082E35 = {
+			isa = PBXGroup;
+			children = (
+				EA3A1A6F287B0BE700082E35 /* getKiziQiita */,
+				EA3A1A6E287B0BE700082E35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3A1A6E287B0BE700082E35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1A6D287B0BE700082E35 /* QiitaAPI45.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3A1A6F287B0BE700082E35 /* getKiziQiita */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1A70287B0BE700082E35 /* getKiziQiitaApp.swift */,
+				EA3A1A72287B0BE700082E35 /* ContentView.swift */,
+				EA3A1A82287B0C3A00082E35 /* TitleView.swift */,
+				EA3A1AAE287C774E00082E35 /* StoryListView.swift */,
+				EA3A1AAC287C773100082E35 /* ListCellView.swift */,
+				EA3A1AAA287C772100082E35 /* SafariView.swift */,
+				EA3A1AB0287D0C5B00082E35 /* Model */,
+				EA3A1A74287B0BE900082E35 /* Assets.xcassets */,
+				EA3A1A76287B0BE900082E35 /* Preview Content */,
+			);
+			path = getKiziQiita;
+			sourceTree = "<group>";
+		};
+		EA3A1A76287B0BE900082E35 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1A77287B0BE900082E35 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA3A1AB0287D0C5B00082E35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1A84287B0C5B00082E35 /* NewsManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3A1A6C287B0BE700082E35 /* getKiziQiita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3A1A7B287B0BE900082E35 /* Build configuration list for PBXNativeTarget "getKiziQiita" */;
+			buildPhases = (
+				EA3A1A69287B0BE700082E35 /* Sources */,
+				EA3A1A6A287B0BE700082E35 /* Frameworks */,
+				EA3A1A6B287B0BE700082E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = getKiziQiita;
+			productName = getKiziQiita;
+			productReference = EA3A1A6D287B0BE700082E35 /* QiitaAPI45.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3A1A65287B0BE700082E35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EA3A1A6C287B0BE700082E35 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = EA3A1A68287B0BE700082E35 /* Build configuration list for PBXProject "getKiziQiita" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3A1A64287B0BE700082E35;
+			productRefGroup = EA3A1A6E287B0BE700082E35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3A1A6C287B0BE700082E35 /* getKiziQiita */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3A1A6B287B0BE700082E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A1A78287B0BE900082E35 /* Preview Assets.xcassets in Resources */,
+				EA3A1A75287B0BE900082E35 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3A1A69287B0BE700082E35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A1A73287B0BE700082E35 /* ContentView.swift in Sources */,
+				EA3A1A71287B0BE700082E35 /* getKiziQiitaApp.swift in Sources */,
+				EA3A1AAF287C774E00082E35 /* StoryListView.swift in Sources */,
+				EA3A1AAD287C773100082E35 /* ListCellView.swift in Sources */,
+				EA3A1A85287B0C5B00082E35 /* NewsManager.swift in Sources */,
+				EA3A1A83287B0C3A00082E35 /* TitleView.swift in Sources */,
+				EA3A1AAB287C772100082E35 /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA3A1A79287B0BE900082E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3A1A7A287B0BE900082E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3A1A7C287B0BE900082E35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"getKiziQiita/Preview Content\"";
+				DEVELOPMENT_TEAM = DN9W3Q5C4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.QiitaAPI45;
+				PRODUCT_NAME = QiitaAPI45;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3A1A7D287B0BE900082E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"getKiziQiita/Preview Content\"";
+				DEVELOPMENT_TEAM = DN9W3Q5C4K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.ac.jec.cm.QiitaAPI45;
+				PRODUCT_NAME = QiitaAPI45;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3A1A68287B0BE700082E35 /* Build configuration list for PBXProject "getKiziQiita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3A1A79287B0BE900082E35 /* Debug */,
+				EA3A1A7A287B0BE900082E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3A1A7B287B0BE900082E35 /* Build configuration list for PBXNativeTarget "getKiziQiita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3A1A7C287B0BE900082E35 /* Debug */,
+				EA3A1A7D287B0BE900082E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3A1A65287B0BE700082E35 /* Project object */;
+}
